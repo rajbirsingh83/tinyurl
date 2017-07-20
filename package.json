@@ -1,0 +1,28 @@
+{
+  "name": "tinyurl",
+  "version": "1.0.0",
+  "description": "Shorten urls",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajbir Singh Kohli",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajbirsingh83/tinyurl"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7",
+    "rethinkdb": "^2.3.2",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
